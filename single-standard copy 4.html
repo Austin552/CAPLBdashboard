@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Video Post - Typerite</title>
+    <title>Standard Post - Typerite</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -80,7 +80,7 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li><a href="index.html" title="">Home</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
@@ -93,7 +93,7 @@
                         </ul>
                     </li>
                     <li class="has-children current">
-                        <a href="#0" title="">Blog Posts</a>
+                        <a href="#0" title="">Blog</a>
                         <ul class="sub-menu">
                         <li><a href="single-video.html">Video Post</a></li>
                         <li><a href="single-audio.html">Audio Post</a></li>
@@ -139,17 +139,20 @@
         <div class="s-content content">
             <main class="row content__page">
                 
-                <article class="column large-full entry format-video">
+                <article class="column large-full entry format-standard">
 
                     <div class="media-wrap entry__media">
-                        <div class="video-container">
-                            <iframe src="https://player.vimeo.com/video/117310401?color=339989&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <div class="entry__post-thumb">
+                            <img src="images/thumbs/single/standard/standard-1000.jpg" 
+                                 srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
+                                         images/thumbs/single/standard/standard-1000.jpg 1000w, 
+                                         images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
                         </div>
                     </div>
 
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                        Hello, This Is A Video Post.
+                        This Is A Standard Format Post.
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="#0">Jonathan Doe</a></li>
@@ -301,7 +304,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div> <!-- end entry content -->
+                    </div> <!-- end entry__pagenav -->
 
                     <div class="entry__related">
                         <h3 class="h2">Related Articles</h3>
