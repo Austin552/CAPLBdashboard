@@ -2756,7 +2756,6 @@ body.search-is-visible {
     width: 100%;
     background: transparent;
     padding: 0;
-    position: static;
     top: 0;
     bottom: auto;
   }
